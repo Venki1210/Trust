@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be A Part</title>
+  <style>
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: aliceblue;
+      padding: 10px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 20px;
+    }
+
+
+
+    .arise h2 {
+      color: center;
+    }
+
+    .donor-form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .donor-form h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
+    .donor-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .donor-form input,
+    .donor-form select,
+    .donor-form textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .donor-form button {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      
+    }
+
+    .donor-form button:hover {
+      background-color: #218838;
+    }
+
+    .donar-class {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    body {
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f2f5;
+      margin: 0;
+    }
+
+ @media(max-width:468px){
+  nav{
+    padding: 2px;
+    flex-direction: column;
+    font-size: 10px;
+  }
+ }
+          
+          
+   
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <h1 style="color: orangered;">JEEVAKARUNYAA</h1><br>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="info.html">Who We Are?</a>
+      <a href="info1.html">What We Do?</a>
+      <a href="info2.html">Be A Part With Us!</a>
+      <button style="background-color: red; color: white; border: none; width: 70px;height: 30px; border-radius: 5px;">Donate</a></button>
+    </div>
+  </nav>
+  </div>
+  <div class="donar-class">
+    <form class="donor-form">
+      <h2>Donor Form</h2>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="amount">Donation Amount ($)</label>
+      <input type="number" id="amount" name="amount" placeholder="Enter donation amount" required>
+
+      <label for="payment">Payment Method</label>
+      <select name="payment" id="payment">
+        <option value="select"> Select</option>
+        <option value="credit card"> Credit Card</option>
+        <option value="debit card"> Debit Card</option>
+        <option value="upi"> UPI</option>
+        <option value="bank transfer"> Bank Transfer</option>
+      </select>
+
+      <label for="message">Enquiry description (Optional)</label>
+      <textarea id="message" name="message" rows="4" placeholder="Text a message..."></textarea>
+
+      <button> <a href="donate.html">Donate Now</a></button>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
